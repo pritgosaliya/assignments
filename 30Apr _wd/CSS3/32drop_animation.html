@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            height: 500px;
+            align-items: center;
+        }
+        .main
+        {
+            position: relative;
+        }
+        .sub
+        {
+            /* position: absolute; */
+            height: 100px;
+            width: 100px;
+            background-color:crimson;
+            border-radius: 50%;
+            box-shadow: 0px 0px 10px white;
+            animation: drop .7s linear forwards;
+        }
+        @keyframes drop {
+           0%{transform: translateY(-500px) scaleY(0.9);}
+           5%{opacity: 0.5;}
+           50%{transform: translateY(0px); opacity: 0.5;}
+           65%{transform: translateY(-15px) scaleY(.9);}
+           75%{transform: translateY(-20px) scaleY(.9);}
+           100%{transform: translateY(0px) scaleY(1); opacity: 1;}
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="sub"></div>
+    </div>
+</body>
+</html>

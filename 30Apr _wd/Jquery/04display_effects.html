@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="jquery.js"></script>
+    <style>
+        h1{
+            display: none;
+        }
+    </style>
+    <script>
+        $(document).ready(function(){
+            //hide data
+            $('#one').click(function(){
+                $('p').hide(3000);
+            })
+                   //show data
+                   $('#show').click(function(){
+                $('h1').show(2000);
+            })
+            //toggle
+            $('#toggle').click(function(){
+                $('h2').toggle(2000)
+            })
+        })
+    </script>
+</head>
+<body>
+    <button id="one">Hide me!</button>
+    <p>This is para</p>
+    <p>Good Morning</p>
+
+    <br>
+    <button id="show">Show me!</button>
+    <h1>Please Show me!</h1>
+
+    <br>  <br>
+    <button id="toggle">Hide/Show Me!</button>
+    <h2>Hide & Show Me!</h2>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="jquery.js"></script>
+    <script>
+        $(document).ready(function(){
+            //out
+            $('#out').click(function(){
+                $('h1').fadeOut(3000)
+            })
+            //in
+            $('#in').click(function(){
+                $('h2').fadeIn(3000)
+            })
+            //toggle
+            $('#toggle').click(function(){
+                $('h3').fadeToggle(2000)
+            })
+        })
+    </script>
+</head>
+<body>
+    <button id="out">Fade Out!</button>
+    <h1>Good Morning!</h1>
+    <button id="in">Fade In!</button>
+    <h2 style="display:none;">Fade In ME!</h2>
+    <button id="toggle">Fade Toggle</button>
+    <h3>Welcome to Fade Effects</h3>
+</body>
+</html>

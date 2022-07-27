@@ -1,0 +1,198 @@
+.header
+{
+    width: 100%;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+    /* padding-top: 10%;
+    padding-bottom: 10%; */
+}
+.first
+{
+    width: 20%;
+    display: block;
+    padding-left: 10%;
+    float: left;
+}
+.second
+{
+    float: left;
+    margin-left: 10%;
+    margin-top: 20px;
+    width: 30%;
+}
+.second a{
+    text-decoration: none;
+    color: white;
+    
+}
+.third
+{
+   width: 30%;
+    float: left;
+}
+.sub-header
+{
+    width: 100%;
+}
+.sub-first
+{
+    width: 40%;
+    /* background-color: aquamarine; */
+    float: left;
+}
+.sub-first img{
+    margin-left: 15%;
+}
+.sub-second
+{
+    margin-top: 30PX;
+    float: left;
+    width: 30%;
+}
+.sub-second input
+{
+    width: 80%;
+    height: 30px;
+}
+.sub-second button
+{
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 15%;
+}
+.sub-third
+{
+    float: left;
+    width: 25%;
+    margin-top: 40px;
+   
+    /* background-color: aqua; */
+}
+.sub-third span{
+    margin-left: 50%;
+}
+.navbar
+{
+    width: 100%;
+    float: left;
+    background-color: #d2c3a0;
+    height: 50px;
+}
+.navbar ul
+{
+    list-style-type: none;
+}
+.navbar ul li{
+    float: left;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    margin-left: 25px;
+    
+}
+.navbar ul li a:hover
+{
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+}
+.banner
+{
+    width: 100%;
+}
+#festival,.feature h1{
+    font-family: "Kaushan Script", cursive;
+}
+#festival .row
+{
+    margin-left: 5%;
+  
+}
+#festival .col
+{
+    width: 20%;
+    border: 1px solid;
+    padding: 15px;
+    float: left;
+    margin: 10px;
+}
+#festival .col img{
+    max-width: 100%;
+    
+} 
+.feature
+{
+    float: left;
+
+    width: 100%;
+}
+.feature .left
+{
+    background-color: #f7f7f7;
+    width: 20%;
+    margin-left: 5%;
+    padding: 10px;
+}
+.feature ul
+{
+    list-style-type: none;
+  
+}
+.feature li{
+   margin-top: 20px;
+}
+.feature a
+{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+   
+}
+.feature .left{
+    float: left;
+}
+.feature .center
+{
+    float: left;
+    padding-left: 5%;
+    width: 40%;
+    /* background-color: #cd9b33; */
+}
+.fature-btn
+{
+    width: 150px;
+    padding: 10px;
+    border: 2px solid #cd9b33;
+    background-color: white;
+    border-radius: 20px;
+}
+.fature-btn:hover{
+    background-color: #cd9b33;
+    color: white;
+}
+.right
+{
+    width: 20%;
+    padding-left: 5%;
+    float: left;
+    /* background-color: aqua; */
+}
+.right img{
+    max-width: 100%;
+}
+.footer
+{
+    margin-top: 20px;
+    float: left;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

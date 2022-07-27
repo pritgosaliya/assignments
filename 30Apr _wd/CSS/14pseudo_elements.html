@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .one::before
+        {
+            content: 'Good Morning! ';
+            content: url(images/logo.png);
+        }
+        .one::after
+        {
+            content: ' Have a Nice Day!';
+        }
+        h1::first-letter
+        {
+            color: red;
+            font-size: 50px;
+        }
+        p{
+            border: 2px solid;
+            width: 300px;
+        }
+        p::first-line
+        {
+            color: aqua;
+            background-color: black;
+        }
+        p::selection
+        {
+            background-color: yellow;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="one">Welocme to Tops!</h1>
+    <h1>Tops Tech</h1>
+    <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.</p>
+</body>
+</html>

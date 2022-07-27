@@ -1,0 +1,40 @@
+#main
+{
+    width: 100%;
+    background-color: aquamarine;
+    height: 500px;
+}
+.header
+{
+    width: 100%;
+    height: 150px;
+    background-color: blueviolet;
+}
+.left
+{
+    width: 20%;
+    height: 200px;
+    background-color: chartreuse;
+    float: left;
+}
+.center
+{
+    width: 60%;
+    height: 200px;
+    background-color: coral;
+    float: left;
+}
+.right
+{
+    width: 20%;
+    height: 200px;
+    background-color: chartreuse;
+    float: left;
+}
+.footer
+{
+    width: 100%;
+    height: 150px;
+    background-color: blueviolet;
+    float: left;
+}

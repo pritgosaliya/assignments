@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main button
+        {
+            background-color: aqua;
+            color: blueviolet;
+            border: 1px solid blueviolet;
+        }
+        .drpdwn
+        {
+            display: none;
+            background-color: aqua;
+            text-align: center;
+            border: 1px solid blueviolet;
+        }
+        .main
+        {
+            display: inline-block;
+        }
+        a{
+            text-decoration: none;
+           
+        }
+        .main:hover button
+        {
+            color: black;
+        }
+
+        .drpdwn a{
+            display: block;
+        }
+        .main:hover .drpdwn
+        {
+            display: block;
+        }
+        .drpdwn:hover a{
+            background-color: coral;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <button>My Menu</button>
+        <div class="drpdwn">
+            <a href="#"> Menu 1</a>
+            <a href="#"> Menu 2</a>
+            <a href="#"> Menu 3</a>
+            <a href="#"> Menu 4</a>
+        </div>
+    </div>
+</body>
+</html>

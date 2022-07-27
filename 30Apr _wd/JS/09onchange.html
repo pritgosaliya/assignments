@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function changeData()
+        {
+            var f = document.getElementById('fruit').value;
+            // alert(f);
+            document.getElementById('demo').innerHTML = "You selected "+f;
+        }
+    </script>
+</head>
+<body>
+    <select id="fruit" onchange="changeData()">
+        <option value="Apple">Apple</option>
+        <option value="Orange">Orange</option>
+        <option value="Kiwi">Kiwi</option>
+    </select>
+    <h3 id="demo"></h3>
+</body>
+</html>

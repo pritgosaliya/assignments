@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="jquery.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('#up').click(function(){
+                $('h1').slideUp(2000);
+            })
+               //down
+               $('#down').click(function(){
+                $('h2').slideDown(2000);
+            })
+
+            //toggle
+            $('#toggle').click(function(){
+                $('h3').slideToggle(1000);
+            })
+        })
+    </script>
+</head>
+<body>
+    <button id="up">Slide Up</button>
+    <h1>Good Morning!</h1>
+    <br>
+    <button id="down" >Slide down</button>
+    <h2 style="display: none;">Very Good Morning!</h2>
+    <br>
+    <button id="toggle">Slide In/out</button>
+    <h3>Hello!</h3>
+</body>
+</html>

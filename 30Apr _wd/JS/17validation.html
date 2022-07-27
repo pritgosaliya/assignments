@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="post" onsubmit="return SubmitData()">
+    <table border="1" align="center">
+        <caption><b>Register Form</b></caption>
+        <tr>
+            <td>Name:</td>
+            <td><input type="text" name="name" onblur="ValidData(this,'NameError')">
+            <span id="NameError"></span>
+            </td>
+        </tr>
+        <tr>
+            <td>Password:</td>
+            <td><input type="password" name="password" onblur="ValidData(this,'PassError')">
+                <span id="PassError"></span>
+            </td>
+        </tr>
+        <tr>
+            <td>Email:</td>
+            <td><input type="email" name="email" onblur="ValidData(this,'EmailError')">
+                <span id="EmailError"></span>
+            </td>
+        </tr>
+        <tr>
+            <td>Mobile:</td>
+            <td><input type="text" name="mobile" onblur="ValidData(this,'MbileError')">
+                <span id="MbileError"></span>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center"><input type="submit" name="submit" value="submit"></td>
+        </tr>
+        </table>
+    </form>
+</body>
+</html>
+<script>
+    function ValidData(e,spnid)
+    {
+        console.log(e);
+        if(e.value == "")
+        {
+            document.getElementById(spnid).style.color="red";
+            document.getElementById(spnid).innerText = "Please Enter Data!";
+            return false;
+        }
+        else{
+            document.getElementById(spnid).innerText = "";
+        }
+    }
+</script>
